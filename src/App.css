@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.bg-banner {
+  background: url('https://assets.ccbp.in/frontend/react-js/music-playlist/music-playlist-Edsheeran-bg.png');
+  height: 40vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.name-role-card {
+  margin-left: 50px;
+}
+.name {
+  font-family: roboto;
+  color: #ffffff;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.role {
+  font-family: roboto;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 0;
+}
+.content-container {
+  background-color: #152850;
+  padding: 10px;
+}
+@media screen and (min-width: 768px){
+  .content-container {
+    padding: 50px;
+    padding-top: 10px;
+  }
+}
+.heading-search-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.heading {
+  font-family: roboto;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 24px;
+}
+.search-card {
+  display: flex;
+  align-items: center;
+  border: 1px solid #cbd5e1;
+  border-radius: 2px;
+  padding: 2px;
+}
+@media screen and (max-width: 768px){
+  .heading {
+    font-size: 18px;
+  }
+}
+.search {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  padding-left: 10px;
+  color: #cbd5e1;
+}
+.search-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.search-icon {
+  color: #ffffff;
+  margin-top: 2px;
+}
+.notfound-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+.notfound-heading {
+  font-family: roboto;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 24px;
+}
+.playlist-container {
+  padding: 0;
+  margin: 0;
+  height: 60vh;
+  overflow: auto;
+}

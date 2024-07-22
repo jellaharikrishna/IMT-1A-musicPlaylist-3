@@ -1,0 +1,47 @@
+.playlist-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.image-name-genre-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.image-size {
+  width: 120px;
+}
+.name-genre-card {
+  margin-left: 10px;
+}
+.song-name {
+  font-family: roboto;
+  color: #ffffff;
+}
+.song-genre {
+  font-family: roboto;
+  color: #3b82f6;
+}
+.duration-delete-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.duration {
+  font-family: roboto;
+  color: #ffffff;
+  margin-right: 10px;
+}
+.delete-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.delete-icon {
+  color: #ffffff;
+  font-size: 16px;
+}
